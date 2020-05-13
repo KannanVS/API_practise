@@ -1,0 +1,31 @@
+{
+  "name": "api_practise",
+  "version": "1.0.0",
+  "description": "API practising project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KannanVS/API_practise.git"
+  },
+  "author": "Kannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KannanVS/API_practise/issues"
+  },
+  "homepage": "https://github.com/KannanVS/API_practise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.13",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
